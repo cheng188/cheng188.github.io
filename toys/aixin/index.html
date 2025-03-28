@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大爽那炽热跳动的❤️</title>
+  <style>
+    html,body {
+      height:100%;
+    }
+    body {
+      margin:0;
+      padding:0;
+      background:#ffa5a5;
+    }
+    .chest {
+      width:500px;
+      height:500px;
+      margin:0 auto;
+      position:relative;
+    }
+    .heart {
+      position:absolute;
+      z-index:2;
+      background:linear-gradient(-90deg,#F50A45 0%,#d5093c 40%);
+      animation: beat 0.7s ease 0s infinite normal;
+    }
+    .heart.center {
+      background:linear-gradient(-45deg,#B80734 0%,#d5093c 40%);
+    }
+    .heart.top {
+      z-index:3;
+    }
+    .sided {
+      top:100px;
+      width:220px;
+      height:220px;
+      border-radius:110px;
+    }
+    .center {
+      width:210px;
+      height:210px;
+      bottom:100px;
+      left:145px;
+      transform:rotateZ(225deg);
+    }
+    .left {
+      left:62px;
+    }
+    .right {
+      right:62px;
+    }
+    @keyframes beat {
+      0% {
+        transform:scale(1) rotate(225deg);
+        box-shadow:0 0 40px #d5093c;
+      }
+      50% {
+        transform:scale(1.1) rotate(225deg);
+        box-shadow:0 0 70px #d5093c;
+      }
+      100% {
+        transform:scale(1) rotate(225deg);
+        box-shadow:0 0 40px #d5093c;
+      }
+    }
+    .wz{
+      width: 100%;
+      height: 500px;
+      margin: auto;
+      text-align: center;
+      line-height: 500px;
+      position: absolute;
+      top: 300px;
+    }
+    button{
+      position: absolute;
+      top: 300px;
+      left: 1300px;
+    }
+  </style>
+</head>
+<body>
+  <div class="chest">
+    <div class="heart left sided top"></div>
+    <div class="heart center"></div>
+    <div class="heart right sided"></div>
+  </div>
+</body>
+</html>
